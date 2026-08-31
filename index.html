@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nihal Singh | UI/UX Designer & Frontend Developer</title>
+  <meta name="description" content="Nihal Singh - UI/UX Designer, Frontend Developer & Computer Science Engineer. Explore my projects, technical skills, and development work.">
+  <meta name="keywords" content="Nihal Singh, Portfolio, Frontend Developer, UI/UX Designer, Computer Science, LPU, Software Engineer, Web Developer">
+  <meta name="author" content="Nihal Singh">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nihal Singh | UI/UX Designer & Frontend Developer">
+  <meta property="og:description" content="I design and build modern, user-friendly websites that help brands grow and connect with people.">
+  <meta property="og:image" content="assets/images/nihal-portrait.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      <!-- Logo -->
+      <a href="#home" class="brand-logo" aria-label="Nihal Singh Home">
+        <span class="logo-text">NS</span><span class="logo-dot">.</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active" data-nav-link>Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" data-nav-link>About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link" data-nav-link>Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link" data-nav-link>Projects</a></li>
+          <li class="nav-item"><a href="#certificates" class="nav-link" data-nav-link>Certificates</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link" data-nav-link>Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" data-nav-link>Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" type="button" aria-label="Toggle light or dark theme" title="Toggle Theme">
+          <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-drawer" class="mobile-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link" data-mobile-link>Home</a></li>
+        <li><a href="#about" class="mobile-nav-link" data-mobile-link>About</a></li>
+        <li><a href="#skills" class="mobile-nav-link" data-mobile-link>Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link" data-mobile-link>Projects</a></li>
+        <li><a href="#certificates" class="mobile-nav-link" data-mobile-link>Certificates</a></li>
+        <li><a href="#education" class="mobile-nav-link" data-mobile-link>Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-mobile-link>Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#contact" class="btn btn-primary btn-full" data-mobile-link>Let's Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (Matching Reference Image) -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <!-- Left Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-text">HELLO, I'M</span>
+          </div>
+
+          <h1 class="hero-title">Nihal Singh</h1>
+
+          <p class="hero-role">
+            UI/UX Designer &amp; <span class="highlight-gold">Frontend Developer</span>
+          </p>
+
+          <p class="hero-description">
+            I design and build modern, user-friendly websites that help brands grow and connect with people. Computer Science Engineering student passionate about elegant web experiences and smart embedded systems.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+
+            <button type="button" class="btn btn-secondary" id="download-cv-btn">
+              <span class="icon-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </span>
+              <span>Download CV</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Hero Portrait with Amber Glow -->
+        <div class="hero-visual">
+          <div class="hero-glow-halo" aria-hidden="true"></div>
+          <div class="hero-image-wrapper">
+            <img src="assets/images/nihal-portrait.png" alt="Nihal Singh - UI/UX Designer & Frontend Developer" class="hero-portrait-img" loading="eager">
+          </div>
+          <div class="hero-status-pill">
+            <span class="pulse-indicator"></span>
+            <span>Available for Opportunities</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Bottom Stats & Social Bar (Exact Match to Design) -->
+      <div class="hero-bottom-bar">
+        <div class="bottom-bar-container">
+          <!-- Left: Scroll Indicator & Socials -->
+          <div class="bottom-left">
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About section">
+              <div class="mouse-icon">
+                <span class="mouse-wheel"></span>
+              </div>
+              <span class="scroll-text">Scroll Down</span>
+            </a>
+
+            <div class="social-links-list">
+              <a href="https://linkedin.com/in/nihal-singh-324268385" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="LinkedIn" aria-label="Nihal Singh on LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <a href="https://github.com/nihalsinghrajpoot630-sketch" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="GitHub" aria-label="Nihal Singh on GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                  <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                </svg>
+              </a>
+
+              <a href="mailto:nihalsinghrajpoot630@gmail.com" class="social-icon-link" title="Email Nihal" aria-label="Send email to Nihal Singh">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: 3 Key Stat Cards -->
+          <div class="bottom-right-stats">
+            <!-- Stat Card 1 -->
+            <div class="stat-card">
+              <div class="stat-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-number">2+</h3>
+                <p class="stat-label">Years Experience</p>
+              </div>
+            </div>
+
+            <!-- Stat Card 2 -->
+            <div class="stat-card">
+              <div class="stat-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-number">25+</h3>
+                <p class="stat-label">Projects Completed</p>
+              </div>
+            </div>
+
+            <!-- Stat Card 3 -->
+            <div class="stat-card">
+              <div class="stat-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-number">15+</h3>
+                <p class="stat-label">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding about-section">
+      <div class="section-container">
+        <div class="section-header-block">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>01 / ABOUT ME</span>
+          </div>
+          <h2 class="section-title">Learning by making things real.</h2>
+          <p class="section-subtitle">
+            Computer Science &amp; Engineering student turning curiosity into practical technology — one problem, interface, and embedded system at a time.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative -->
+          <div class="about-text-card glass-panel">
+            <h3 class="card-heading">Passionate Engineer &amp; Designer</h3>
+            <p class="paragraph">
+              I'm <strong>Nihal Singh</strong>, currently pursuing my B.Tech in Computer Science and Engineering at <strong>Lovely Professional University (LPU)</strong> in Phagwara, Punjab.
+            </p>
+            <p class="paragraph">
+              My core interests sit right at the intersection of modern software development, intuitive user experience design, and physical embedded systems. Whether it is engineering responsive web interfaces or writing firmware for microcontrollers (like ESP32), I enjoy breaking down complex problems and turning ideas into tangible, high-quality products.
+            </p>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <div class="highlight-bullet"></div>
+                <div>
+                  <h4>Frontend Engineering</h4>
+                  <p>Responsive, accessible, fast interfaces with smooth micro-interactions.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-bullet"></div>
+                <div>
+                  <h4>Embedded &amp; IoT Systems</h4>
+                  <p>Interfacing sensors, voice modules, and microcontrollers with software.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-bullet"></div>
+                <div>
+                  <h4>Problem Solving &amp; DSA</h4>
+                  <p>Solid grasp of data structures, algorithms, and clean maintainable code.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info & Contact Card -->
+          <div class="about-sidebar">
+            <div class="info-card glass-panel">
+              <h3 class="card-heading">Quick Details</h3>
+
+              <ul class="info-list">
+                <li class="info-list-item">
+                  <span class="info-label">Degree</span>
+                  <span class="info-value">B.Tech Computer Science</span>
+                </li>
+                <li class="info-list-item">
+                  <span class="info-label">University</span>
+                  <span class="info-value">Lovely Professional University</span>
+                </li>
+                <li class="info-list-item">
+                  <span class="info-label">Location</span>
+                  <span class="info-value">Phagwara, Punjab · India</span>
+                </li>
+                <li class="info-list-item">
+                  <span class="info-label">Status</span>
+                  <span class="info-badge-status">Open to Internships</span>
+                </li>
+                <li class="info-list-item">
+                  <span class="info-label">Email</span>
+                  <button type="button" class="copy-link-btn" data-copy="nihalsinghrajpoot630@gmail.com" title="Click to copy email">
+                    <span>nihalsinghrajpoot630@gmail.com</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                    </svg>
+                  </button>
+                </li>
+                <li class="info-list-item">
+                  <span class="info-label">Phone</span>
+                  <button type="button" class="copy-link-btn" data-copy="+918840197274" title="Click to copy phone">
+                    <span>+91 8840197274</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+
+              <div class="sidebar-action-btn">
+                <a href="#contact" class="btn btn-primary btn-full">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS & TOOLKIT SECTION -->
+    <section id="skills" class="section-padding skills-section">
+      <div class="section-container">
+        <div class="section-header-block">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>02 / TOOLKIT &amp; STACK</span>
+          </div>
+          <h2 class="section-title">A growing technical range.</h2>
+          <p class="section-subtitle">
+            The tools, languages, and frameworks I use to solve problems, write clean code, and ship working solutions.
+          </p>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <!-- Skill 1: Java -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2v7.5a2.5 2.5 0 0 0 5 0V2"></path>
+                <path d="M12 14v8"></path>
+                <path d="M8 18h8"></path>
+                <path d="M4 10h16"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Core Language</span>
+              <h3 class="skill-name">Java</h3>
+              <p class="skill-desc">OOPs, Collections, Exception Handling &amp; Problem Solving</p>
+            </div>
+            <span class="skill-number">01</span>
+          </div>
+
+          <!-- Skill 2: Python -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m4 17 6-6-6-6"></path>
+                <path d="M12 19h8"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Programming</span>
+              <h3 class="skill-name">Python</h3>
+              <p class="skill-desc">Scripting, Logic Building, Data Handling &amp; Fundamentals</p>
+            </div>
+            <span class="skill-number">02</span>
+          </div>
+
+          <!-- Skill 3: C++ -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                <path d="M12 8v8"></path>
+                <path d="M8 12h8"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Systems &amp; DSA</span>
+              <h3 class="skill-name">C++</h3>
+              <p class="skill-desc">Data Structures, Algorithms, Memory Management &amp; STL</p>
+            </div>
+            <span class="skill-number">03</span>
+          </div>
+
+          <!-- Skill 4: HTML5 & CSS3 -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Frontend</span>
+              <h3 class="skill-name">HTML5 &amp; CSS3</h3>
+              <p class="skill-desc">Semantic Layouts, Responsive Design, Flexbox, Grid &amp; CSS Variables</p>
+            </div>
+            <span class="skill-number">04</span>
+          </div>
+
+          <!-- Skill 5: JavaScript -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m18 16 4-4-4-4"></path>
+                <path d="m6 8-4 4 4 4"></path>
+                <path d="m14.5 4-5 16"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Web Scripting</span>
+              <h3 class="skill-name">JavaScript</h3>
+              <p class="skill-desc">ES6+, DOM Manipulation, Async/Await &amp; Dynamic UI Interactivity</p>
+            </div>
+            <span class="skill-number">05</span>
+          </div>
+
+          <!-- Skill 6: MySQL -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                <path d="M3 12A9 3 0 0 0 21 12"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Database</span>
+              <h3 class="skill-name">MySQL</h3>
+              <p class="skill-desc">Relational Schema Design, Complex Queries, Constraints &amp; Indexing</p>
+            </div>
+            <span class="skill-number">06</span>
+          </div>
+
+          <!-- Skill 7: MongoDB -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2c5 0 9 4 9 9s-4 11-9 11-9-6-9-11 4-9 9-9z"></path>
+                <path d="M12 2v20"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">NoSQL Database</span>
+              <h3 class="skill-name">MongoDB</h3>
+              <p class="skill-desc">Document Collections, JSON Schemas, CRUD Operations &amp; Aggregations</p>
+            </div>
+            <span class="skill-number">07</span>
+          </div>
+
+          <!-- Skill 8: ESP32 & Embedded -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="16" height="16" x="4" y="4" rx="2"></rect>
+                <rect width="6" height="6" x="9" y="9" rx="1"></rect>
+                <path d="M9 1v3"></path>
+                <path d="M15 1v3"></path>
+                <path d="M9 20v3"></path>
+                <path d="M15 20v3"></path>
+                <path d="M20 9h3"></path>
+                <path d="M20 14h3"></path>
+                <path d="M1 9h3"></path>
+                <path d="M1 14h3"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Hardware &amp; IoT</span>
+              <h3 class="skill-name">ESP32 &amp; Embedded C</h3>
+              <p class="skill-desc">Microcontrollers, Sensor Interfacing, Breadboard Electronics &amp; Serial Comms</p>
+            </div>
+            <span class="skill-number">08</span>
+          </div>
+
+          <!-- Skill 9: Git & GitHub -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="6" cy="6" r="3"></circle>
+                <path d="M6 9v12"></path>
+                <path d="M18 9a9 9 0 0 1-9 9"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Version Control</span>
+              <h3 class="skill-name">Git &amp; GitHub</h3>
+              <p class="skill-desc">Branching, Pull Requests, Code Reviews, Remote Repos &amp; Collaboration</p>
+            </div>
+            <span class="skill-number">09</span>
+          </div>
+
+          <!-- Skill 10: Problem Solving -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Analytical Thinking</span>
+              <h3 class="skill-name">Problem Solving</h3>
+              <p class="skill-desc">50+ algorithmic problems solved with clean step-by-step logic</p>
+            </div>
+            <span class="skill-number">10</span>
+          </div>
+
+          <!-- Skill 11: Team Collaboration -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Professional</span>
+              <h3 class="skill-name">Team Collaboration</h3>
+              <p class="skill-desc">Clear communication, project organization &amp; collaborative building</p>
+            </div>
+            <span class="skill-number">11</span>
+          </div>
+
+          <!-- Skill 12: UI/UX Design Principles -->
+          <div class="skill-card glass-panel" data-reveal>
+            <div class="skill-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <div class="skill-details">
+              <span class="skill-category">Design</span>
+              <h3 class="skill-name">UI/UX Principles</h3>
+              <p class="skill-desc">Visual hierarchy, color theory, typography &amp; user-centric layouts</p>
+            </div>
+            <span class="skill-number">12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED PROJECTS SECTION -->
+    <section id="projects" class="section-padding projects-section">
+      <div class="section-container">
+        <div class="section-header-block">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>03 / FEATURED PROJECT</span>
+          </div>
+          <h2 class="section-title">Where code meets a circuit.</h2>
+          <p class="section-subtitle">
+            Featured ECE &amp; software projects built as functional working prototypes shaped around intuitive human interaction.
+          </p>
+        </div>
+
+        <!-- Featured Project Spotlight Card -->
+        <article class="featured-project-card glass-panel" data-reveal>
+          <!-- Left: Hardware / Interactive Visual -->
+          <div class="project-visual-panel">
+            <div class="circuit-grid-overlay" aria-hidden="true"></div>
+            <div class="circuit-orbit">
+              <div class="orbit-ring-outer"></div>
+              <div class="orbit-ring-inner"></div>
+              <div class="orbit-center-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                  <path d="M11 9h4a2 2 0 0 0 2-2V3"></path>
+                  <circle cx="9" cy="9" r="2"></circle>
+                  <path d="M7 21v-4a2 2 0 0 1 2-2h4"></path>
+                  <circle cx="15" cy="15" r="2"></circle>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Circuit Node Badges -->
+            <div class="circuit-node node-mic">
+              <span class="node-dot"></span>
+              <span>MIC</span>
+            </div>
+            <div class="circuit-node node-esp32">
+              <span class="node-dot"></span>
+              <span>ESP32</span>
+            </div>
+            <div class="circuit-node node-usb">
+              <span class="node-dot"></span>
+              <span>USB</span>
+            </div>
+            <div class="circuit-node node-ppt">
+              <span class="node-dot"></span>
+              <span>PPT</span>
+            </div>
+
+            <div class="project-visual-caption">
+              <div class="caption-text">
+                <span class="caption-label">Voice Interface</span>
+                <span class="caption-value">Hands-free Slide Navigation</span>
+              </div>
+              <div class="caption-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" y1="19" x2="12" y2="22"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Project Information -->
+          <div class="project-info-panel">
+            <div class="project-tag-row">
+              <span class="tag-category">ECE Project · Embedded Systems</span>
+              <span class="tag-status">Working Prototype</span>
+            </div>
+
+            <h3 class="project-title">Voice Controlled PowerPoint Presentation Controller</h3>
+
+            <p class="project-description">
+              A low-cost, smart embedded hardware solution that translates voice commands into next and previous slide navigation in real time — bringing freedom and natural flow to presenters without holding a clicker.
+            </p>
+
+            <ul class="project-highlights-list">
+              <li>
+                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <span>Voice next / previous slide recognition &amp; trigger</span>
+              </li>
+              <li>
+                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <span>USB Serial communication directly with host laptop</span>
+              </li>
+              <li>
+                <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <span>Tested breadboard prototype with noise filtering</span>
+              </li>
+            </ul>
+
+            <!-- Tech Pills -->
+            <div class="tech-pills-wrap">
+              <span class="tech-pill">ESP32</span>
+              <span class="tech-pill">Microphone Module</span>
+              <span class="tech-pill">Embedded C/C++</span>
+              <span class="tech-pill">PowerPoint API</span>
+              <span class="tech-pill">USB Serial Comms</span>
+              <span class="tech-pill">Breadboard Circuitry</span>
+            </div>
+
+            <!-- Project Action -->
+            <div class="project-actions-row">
+              <button type="button" class="btn btn-primary" id="open-project-modal-btn">
+                <span>View Architecture &amp; Details</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES & LEARNING LOG -->
+    <section id="certificates" class="section-padding certificates-section">
+      <div class="section-container">
+        <div class="section-header-block">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>04 / LEARNING LOG</span>
+          </div>
+          <h2 class="section-title">Proof of steady progress.</h2>
+          <p class="section-subtitle">
+            Courses, certifications, and programs that have expanded the way I think about code, systems, and software engineering.
+          </p>
+        </div>
+
+        <div class="certificates-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-panel" data-reveal>
+            <div class="cert-header">
+              <span class="cert-index">01</span>
+              <span class="cert-issuer">Infosys Springboard</span>
+              <div class="cert-badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6"></circle>
+                  <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="cert-title">Programming Fundamentals using Python – Part 1</h3>
+            <p class="cert-meta">Verified Certificate · Core Programming Logic &amp; Algorithms</p>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-panel" data-reveal>
+            <div class="cert-header">
+              <span class="cert-index">02</span>
+              <span class="cert-issuer">Infosys Springboard</span>
+              <div class="cert-badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6"></circle>
+                  <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="cert-title">Introduction to Cyber Security</h3>
+            <p class="cert-meta">Verified Certificate · System Security &amp; Network Defense Basics</p>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-panel" data-reveal>
+            <div class="cert-header">
+              <span class="cert-index">03</span>
+              <span class="cert-issuer">Saylor Academy</span>
+              <div class="cert-badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6"></circle>
+                  <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="cert-title">CS102: Introduction to Computer Science II</h3>
+            <p class="cert-meta">Verified Certificate · Advanced Computer Science &amp; OOP Principles</p>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-panel" data-reveal>
+            <div class="cert-header">
+              <span class="cert-index">04</span>
+              <span class="cert-issuer">Coursera</span>
+              <div class="cert-badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6"></circle>
+                  <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="cert-title">Software Development Processes and Methodologies</h3>
+            <p class="cert-meta">Completed May 2024 · Agile, Scrum &amp; Structured Software Lifecycle</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section-padding education-section">
+      <div class="section-container">
+        <div class="section-header-block">
+          <div class="section-eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>05 / EDUCATION</span>
+          </div>
+          <h2 class="section-title">The foundation underneath.</h2>
+          <p class="section-subtitle">
+            An academic path grounded in computer science and problem solving.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-marker">
+              <span class="marker-dot active-dot"></span>
+              <span class="marker-line"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <span class="timeline-period">Aug 2026 — Present</span>
+                <span class="timeline-badge">Current Degree</span>
+              </div>
+              <h3 class="institution-name">Lovely Professional University</h3>
+              <p class="degree-name">Bachelor of Technology in Computer Science and Engineering</p>
+              <div class="location-tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Phagwara, Punjab</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+              <span class="marker-line"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <span class="timeline-period">May 2024 — March 2025</span>
+              </div>
+              <h3 class="institution-name">MTS Public School</h3>
+              <p class="degree-name">Higher Secondary Education (Class XII)</p>
+              <div class="location-tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Mirzapur, Uttar Pradesh</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-header">
+                <span class="timeline-period">June 2023 — March 2024</span>
+              </div>
+              <h3 class="institution-name">MTS Public School</h3>
+              <p class="degree-name">Secondary Education (Class X)</p>
+              <div class="location-tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Mirzapur, Uttar Pradesh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="section-container">
+        <div class="contact-card-wrapper glass-panel">
+          <div class="contact-glow-bg" aria-hidden="true"></div>
+
+          <div class="contact-grid">
+            <!-- Left Contact Info -->
+            <div class="contact-info-col">
+              <div class="section-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span>06 / OPEN CHANNEL</span>
+              </div>
+              <h2 class="contact-main-heading">Have a problem worth solving?</h2>
+              <p class="contact-main-desc">
+                I'm always interested in thoughtful conversations about software engineering, frontend design, embedded systems, and innovative collaborations.
+              </p>
+
+              <!-- Direct Contact Details -->
+              <div class="direct-contact-cards">
+                <!-- Email -->
+                <div class="direct-item">
+                  <div class="direct-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </div>
+                  <div class="direct-content">
+                    <span class="direct-label">Email</span>
+                    <a href="mailto:nihalsinghrajpoot630@gmail.com" class="direct-link">nihalsinghrajpoot630@gmail.com</a>
+                  </div>
+                  <button type="button" class="copy-action-btn" data-copy="nihalsinghrajpoot630@gmail.com" title="Copy Email" aria-label="Copy Email address">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Phone -->
+                <div class="direct-item">
+                  <div class="direct-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="direct-content">
+                    <span class="direct-label">Phone</span>
+                    <a href="tel:+918840197274" class="direct-link">+91 8840197274</a>
+                  </div>
+                  <button type="button" class="copy-action-btn" data-copy="+918840197274" title="Copy Phone Number" aria-label="Copy phone number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Social Pills -->
+                <div class="contact-social-row">
+                  <a href="https://linkedin.com/in/nihal-singh-324268385" target="_blank" rel="noopener noreferrer" class="contact-social-pill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect width="4" height="12" x="2" y="9"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <span>LinkedIn</span>
+                  </a>
+
+                  <a href="https://github.com/nihalsinghrajpoot630-sketch" target="_blank" rel="noopener noreferrer" class="contact-social-pill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Interactive Form -->
+            <div class="contact-form-col">
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name</label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Alex Sharma" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address</label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="alex@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject</label>
+                  <input type="text" id="form-subject" name="subject" class="form-input" placeholder="Project Inquiry / Opportunity" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Your Message</label>
+                  <textarea id="form-message" name="message" class="form-textarea" rows="4" placeholder="Hi Nihal, I'd like to talk about..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full form-submit-btn">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#home" class="brand-logo">
+          <span class="logo-text">NS</span><span class="logo-dot">.</span>
+        </a>
+        <span class="footer-copy">© 2026 Nihal Singh · Built with care &amp; precision.</span>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m18 15-6-6-6 6"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container glass-panel">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+
+      <div class="modal-content">
+        <div class="modal-badge-row">
+          <span class="tag-category">Embedded IoT &amp; Hardware</span>
+          <span class="tag-status">Prototype Tested</span>
+        </div>
+
+        <h2 class="modal-title">Voice Controlled PowerPoint Presentation Controller</h2>
+
+        <p class="modal-lead">
+          An embedded hardware tool engineered around natural vocal gestures to deliver effortless, hands-free slide navigation during presentations.
+        </p>
+
+        <div class="modal-section">
+          <h3>System Architecture &amp; Dataflow</h3>
+          <div class="arch-flow-diagram">
+            <div class="flow-step">
+              <span class="flow-num">1</span>
+              <h4>Voice Audio Input</h4>
+              <p>Analog sound captured through high-sensitivity electret microphone module</p>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+              <span class="flow-num">2</span>
+              <h4>ESP32 Processing</h4>
+              <p>Signal analysis &amp; keyword threshold detection in embedded C/C++</p>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+              <span class="flow-num">3</span>
+              <h4>USB HID Trigger</h4>
+              <p>Keycode commands dispatched via Serial over USB to presentation host</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>Key Features &amp; Specifications</h3>
+          <ul class="modal-features-list">
+            <li><strong>Low Latency Navigation:</strong> Instant forward and backward slide triggers.</li>
+            <li><strong>Hardware Interface:</strong> Direct USB plug-and-play communication without requiring custom OS drivers.</li>
+            <li><strong>Reliability:</strong> Noise filter calibration to prevent unintended triggers during ambient speech.</li>
+            <li><strong>Prototyping:</strong> Compact breadboard integration designed for portable presentation usage.</li>
+          </ul>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a href="mailto:nihalsinghrajpoot630@gmail.com?subject=Inquiry regarding Voice Presentation Controller" class="btn btn-primary">Discuss Hardware Specs</a>
+          <button type="button" class="btn btn-secondary modal-dismiss-btn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CV MODAL -->
+  <div id="cv-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container glass-panel cv-modal-box">
+      <button type="button" class="modal-close-btn" id="cv-modal-close-btn" aria-label="Close CV modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+
+      <div class="modal-content">
+        <div class="modal-badge-row">
+          <span class="tag-category">Resume &amp; Credentials</span>
+        </div>
+        <h2 class="modal-title">Nihal Singh - Curriculum Vitae</h2>
+        <p class="modal-lead">
+          Download or view my updated resume detailing my academic background, technical skills, certifications, and project experience.
+        </p>
+
+        <div class="cv-summary-card">
+          <div class="cv-summary-item">
+            <strong>Education:</strong> B.Tech CSE · Lovely Professional University
+          </div>
+          <div class="cv-summary-item">
+            <strong>Core Skills:</strong> Java, Python, C++, HTML/CSS, JS, MySQL, MongoDB, ESP32
+          </div>
+          <div class="cv-summary-item">
+            <strong>Certifications:</strong> Infosys Springboard, Saylor Academy, Coursera
+          </div>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a href="mailto:nihalsinghrajpoot630@gmail.com?subject=Requesting Nihal Singh CV" class="btn btn-primary">
+            <span>Request Full Resume PDF</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+          <button type="button" class="btn btn-secondary cv-dismiss-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast" role="alert" aria-live="assertive">
+    <div class="toast-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5"></path>
+      </svg>
+    </div>
+    <div class="toast-message" id="toast-text">Action successful!</div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
